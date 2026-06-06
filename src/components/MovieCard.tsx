@@ -11,7 +11,7 @@ const MovieCard = ({ movie }: MovieCardProps) => {
         src={
           movie.Poster !== "N/A"
             ? movie.Poster
-            : "https://via.placeholder.com/300x450"
+            : "https://picsum.photos/id/237/200/300"
         }
         alt={movie.Title}
         className="w-full h-[400px] object-cover"
